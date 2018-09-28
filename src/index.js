@@ -12,4 +12,4 @@ else if (D == 0) {
 x = Math.round(-b / (2 * a)); 
 }
 }
-
+return solveEquation()
