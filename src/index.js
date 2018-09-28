@@ -14,3 +14,4 @@ var x3 = Math.round(-b / (2 * a));
 else (D < 0) { 
 var no = 'Нет решений';
 }
+}
