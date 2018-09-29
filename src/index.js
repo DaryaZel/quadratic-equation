@@ -8,12 +8,14 @@ module.exports =function solveEquation(equation) {
     var x2= Math.round((-b + Math.sqrt(D)) / (2 * a));
       if (x1>x2) {
         var sol = [];
-        sol[0] = x2;
-        sol[1] = x1;
+        sol[0]=x2;
+        sol[1]=x1;
+        return solveEquation=sol;
       }
-      else if (x1 < x2) {
+      else if (x1<x2) {
         var sol = [];
         sol[0]=x1;
         sol[1]=x2;
+        return solveEquation=sol;
       }
     }
